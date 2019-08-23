@@ -8,10 +8,8 @@
     "noImplicitThis": true,
     "strictNullChecks": false,
     "strictFunctionTypes": true,
-    "baseUrl": "../",
-    "typeRoots": [
-      "../"
-    ],
+    "baseUrl": "types",
+    "typeRoots": ["types"],
     "paths": {
       "selenium-webdriver": [
         "selenium-webdriver/v3"
@@ -28,3 +26,4 @@
     "index.d.ts"
   ]
 }
+
