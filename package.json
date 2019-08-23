@@ -1,6 +1,6 @@
 {
   "name": "types-protractor-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "type definitions for protractor-helper",
   "main": "index.d.ts",
   "scripts": {
