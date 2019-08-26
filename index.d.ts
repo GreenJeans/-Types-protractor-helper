@@ -7,44 +7,6 @@ declare global {
         interface ElementFinder {
         }
     }
-
-    // Matchers
-    // TODO - Use `T` to improve types
-
-    // Note: This augments a namespace from '@types/jasmine'.
-    // Intentionally not referencing those types from this file as they introduce many globals,
-    // and users may use protractor-helpers but not jasmine, and have different definitions of those globals (e.g. through `jest`)
-    namespace jasmine {
-        interface Matchers<T> {
-            toBePresent(): boolean;
-
-            toBeDisplayed(): boolean;
-
-            toHaveCountOf(expectedCount: number): boolean;
-
-            toHaveText(expectedText: string): boolean;
-
-            toMatchRegex(regex: RegExp): boolean;
-
-            toHaveValue(actual: string | number): boolean;
-
-            toHaveClass(className: string): boolean;
-
-            toHaveUrl(url: string): boolean;
-
-            toBeDisabled(): boolean;
-
-            toBeChecked(): boolean;
-
-            toBeValid(): boolean;
-
-            toBeInvalid(): boolean;
-
-            toBeInvalidRequired(): boolean;
-
-            toBeKendoSelected(): boolean;
-        }
-    }
 }
 
 export function clickWhenClickable(htmlElement: protractor.ElementFinder, timoutInMilliseconds?: number): void;
