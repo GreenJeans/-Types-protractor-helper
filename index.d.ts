@@ -26,10 +26,6 @@ declare global {
 
             toMatchRegex(regex: RegExp): boolean;
 
-            toMatchMoney(expectedValue: number, currencySymbol?: string): boolean;
-
-            toMatchMoneyWithFraction(expectedValue: number, currencySymbol?: string): boolean;
-
             toHaveValue(actual: string | number): boolean;
 
             toHaveClass(className: string): boolean;
